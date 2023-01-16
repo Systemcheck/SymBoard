@@ -2,8 +2,8 @@
 ### Step 1 - Download project
 Clone project and move inside.
 ```sh
-$ git clone https://github.com/DuboisS/symforum.git
-$ cd symforum
+$ git clone https://github.com/Systemcheck/SymBoard.git
+$ cd symboard
 ```
 
 ### Step 2 - Containers and volume
