@@ -5,7 +5,8 @@ import '../../css/components/ckeditor.css';
 
 ClassicEditor
     .create(document.querySelector('.editor'), {
-        language: 'fr',
+        language: 'de',
+        uiColor: '#AADC6E',
         mediaEmbed: {
             previewsInData: true,
         },

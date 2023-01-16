@@ -23,6 +23,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 #[UniqueEntity('pseudo')]
 #[UniqueEntity('email')]
 #[UniqueEntity('slug')]
+#[UniqueEntity(fields: ['email'], message: 'There is already an account with this email')]
 class User implements UserInterface, PasswordAuthenticatedUserInterface, Stringable
 {
     use CreatedAtTrait;
@@ -76,6 +77,9 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface, Stringa
     #[Assert\Choice(callback: 'getLocales')]
     #[Assert\Language]
     private ?string $locale = Locales::DEFAULT;
+
+    #[ORM\Column(type: 'boolean')]
+    private $isVerified = false;
 
     public function __construct()
     {
@@ -308,5 +312,17 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface, Stringa
     public static function getLocales(): array
     {
         return array_keys(Locales::AVAILABLE);
+    }
+
+    public function isVerified(): bool
+    {
+        return $this->isVerified;
+    }
+
+    public function setIsVerified(bool $isVerified): self
+    {
+        $this->isVerified = $isVerified;
+
+        return $this;
     }
 }

@@ -26,7 +26,7 @@
   --bs-white: #fff;
   --bs-gray: #919aa1;
   --bs-gray-dark: #343a40;
-  --bs-primary: #1a1a1a;
+  --bs-primary: #bf1d2d;
   --bs-secondary: #fff;
   --bs-success: #4bbf73;
   --bs-info: #1f9bcf;
@@ -51,6 +51,9 @@
   }
 }
 
+.red {
+  background: var(--bs-red)
+}
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
@@ -58,7 +61,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #55595c;
-  background-color: #fff;
+  background-color: #fafafa;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -128,6 +131,14 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.thread p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-size: 14px;
+  word-break: break-word;
+  color: black
 }
 
 abbr[title],
@@ -208,8 +219,8 @@ sup {
 }
 
 a {
-  color: #1a1a1a;
-  text-decoration: underline;
+  color: var(--bs-primary);
+  text-decoration: none;
 }
 
 a:hover {
@@ -3024,13 +3035,13 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #1a1a1a;
+  background-color: var(--bs-primary);
   border-color: #1a1a1a;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #161616;
+  background-color: var(--bs-primary);
   border-color: #151515;
 }
 
@@ -4619,6 +4630,11 @@ fieldset:disabled .btn {
 
 .card-text:last-child {
   margin-bottom: 0;
+  font-size: 12px;
+}
+
+.card-text {
+  font-size: 12px;
 }
 
 .card-link:hover {
@@ -7718,7 +7734,7 @@ fieldset:disabled .btn {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #1a1a1a !important;
+  color: var(--bs-primary) !important;
 }
 
 .text-secondary {
@@ -10801,4 +10817,49 @@ th {
 
 .card-title, .card-header {
   color: inherit;
+}
+
+.userCredits {
+  margin-top: 20px;
+}
+
+.userCredits:before {
+  content: "";
+  left: 0;
+  margin-top: -10px;
+  position: absolute;
+  right: 0;
+}
+
+dl.dataList {
+  font-size:12px;
+  overflow: hidden;
+}
+
+dl.dataList>dt {
+  clear: right;
+  color: #7d8287;
+  float: left;
+  margin-right: 4px;
+  text-align: left;
+}
+
+dl.dataList>dd {
+  float: right;
+  min-height: 20px;
+  text-align: right;
+}
+
+.messageSidebar {
+  background-color: #ecf6f7;
+  color: #2c3e50;
+  position: relative;
+    padding: 20px px;
+}
+
+.breadcrumb {
+  background-color: #f2f2f2;
+  color: #f2f2f2;
+  flex: 0 0 auto;
+  padding: 5px 10px;
 }

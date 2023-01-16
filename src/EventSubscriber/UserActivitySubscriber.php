@@ -33,7 +33,7 @@ class UserActivitySubscriber implements EventSubscriberInterface
 
             if ($nbOnlineUsers > $maxOnlineUsers) {
                 $this->optionService->set('max_online_users', (string) $nbOnlineUsers);
-                $this->optionService->set('max_online_users_date', date('d-m-Y à H:i:s'));
+                $this->optionService->set('max_online_users_date', date('d-m-Y H:i:s'));
             }
         }
     }

@@ -6,11 +6,13 @@ namespace App\ValueObject;
 
 class Locales
 {
-    final public const DEFAULT = self::ENGLISH;
+    final public const DEFAULT = self::DEUTSCH;
     final public const AVAILABLE = [
+        self::DEUTSCH => 'Deutsch',
         self::ENGLISH => 'English',
         self::FRENCH => 'Français',
     ];
+    final public const DEUTSCH = 'de';
     final public const ENGLISH = 'en';
     final public const FRENCH = 'fr';
 }

@@ -1,0 +1,206 @@
+# General
+Admin: Admin
+Administration: Administration
+Invalid CSRF token: Token ungültig
+Please provide more details: Merci de donner plus d'informations
+Login: Anmelden
+Logout: Abmelden
+You have logged in: Du wurdest erfolgreich eingeloggt
+You have logged out: Du wurdest erfolgreich ausgeloggt
+Category: Kategorie
+Forum: Forum
+Forums: Foren
+Thread: Sujet
+thread: sujet
+Threads: Themen
+threads: Themen
+Message: Beitrag
+message: Beitrag
+Messages: Beiträge
+messages: Beiträge
+Report: Bericht
+report: bericht
+Settings: Einstellungen
+Users: Benutzer
+User: Benutzer
+# Controllers
+The forum has been locked: Le forum a été verrouillé
+The forum has been unlocked: Le forum a été dévérrouillé
+
+The message has been deleted: Le message a été supprimé
+The message has been edited: Le message a été édité
+Your message has been posted: Votre message a été publié
+The message has been reported: Le message a bien été signalé
+The message is not in a thread: Le message n'est pas dans un sujet
+The message and the thread have been deleted: Le message et le sujet ont été supprimés
+You have already reported this message: Vous avez déjà signalé ce message
+You can't report yourself!: Vous ne pouvez pas vous signaler vous-même!
+
+Your thread has been created: Votre sujet a été créé
+The thread has been deleted: Le sujet a été supprimé
+The thread has been unlocked: Le sujet a été déverrouillé
+The thread has been unpinned: Le sujet a été détaché
+The thread has been locked: Le sujet a été verrouillé
+The thread has been pinned: Le sujet a été épinglé
+
+# Forms
+Thread title: Titel des Themas
+Language: Sprache
+You must enter a title: Vous devez saisir un titre
+The title must be at least {{ limit }} characters: Le titre doit faire au moins {{ limit }} caractères
+The title must not exceed {{ limit }} characters: Le titre doit faire au maximum {{ limit }} caractères
+You must enter a message: Vous devez saisir un message
+The message must be at least 3 characters: Le message doit faire au moins 3 caractères
+The message must not exceed {{ limit }} characters: Le message doit faire au maximum {{ limit }} caractères
+
+# Services
+You can't add your message because the thread is locked: Vous ne pouvez pas ajouter votre message parce que le sujet est verrouillé
+You have to wait a while before you can post a message: Vous devez patienter avant de pouvoir poster un message
+You can't edit your message because the thread is locked: Vous ne pouvez pas éditer votre message parce que le sujet est verrouillé
+The first message cannot be deleted because the thread contains replies: Le premier message ne peut pas être supprimé parce que le sujet contient des réponses
+
+You have to wait a while before you can post a thread: Vous devez patienter avant de pouvoir créer un sujet
+You can't create a thread because the forum is locked: Vous ne pouvez pas créer un sujet parce que le forum est fermé
+
+# Admin
+The category has been added: Die Kategorie wurde hinzugefügt
+The category cannot be deleted, it contains forums: Die Kategorie kann nicht gelöscht werden da sie Foren enthält
+The category has been deleted: Die Kategorie wurde gelöscht
+The category has been edited: Die Kategorie wurde bearbeitet
+
+The report has been deleted: Le signalement a été supt:primé
+The report has been closed: Le signalement a été clôturé
+
+The request is not complete: La requête n'est pas complète
+
+The user "pseudo" has been deleted: L'utilisateur "pseudo" a été supprimé
+The user "pseudo" has been reset: L'utilisateur "pseudo" a été remis à zéro
+You can't delete yourself!: Vous ne pouvez pas vous supprimer vous-même !
+
+# Roles
+Administrators: Administratoren
+Moderators: Moderatoren
+
+# Templates
+Actions: Aktionen
+Add: Hinzufügen
+Add a category: Kategorie hinzufügen
+Answers: Antworten
+Are you sure you want to delete: Etes-vous sûr de vouloir supprimer
+Are you sure you want to delete this thread?: Etes-vous sûr de vouloir supprimer ce sujet ?
+Author: Auteur
+By: Par
+by: von
+Cancel: Abbrechen
+Categories: Kategorien
+Close: Schließen
+Close the forum: Forum schließen
+Confirm: Confirmer
+Confirmation of deletion: Löschen Bestätigen
+Content: Inhalt
+created thread: sujet créé
+Created threads: Sujets créés
+created threads: sujets créés
+Date: Date
+Delete: Supprimer
+Delete the thread: Supprimer le sujet
+Delete user data (messages, threads...): Supprimer les données utilisateur (messages, sujets...)
+Deleted account: Compte supprimé
+Describe here the reasons that lead you to report the author of this message...: Décrivez ici les raisons qui vous amènent à signaler l'auteur de ce message...
+Details: Details
+Details on %user%: Details von %user%
+Edit: Modifier
+Edit of: Modification de
+Edit the category: Kategorie bearbeiten
+Edition of your message: Edition de votre message
+Email: E-Mail
+Homepage: Homepage
+If this box is unchecked, its content will be replaced by "deleted".: Si cette case est décochée, tout le contenu sera remplacé par "supprimé".
+Last activity: Zuletzt Aktiv
+Last created threads: Derniers sujets créés
+Last participations: Letzte Beiträge
+Last message: Letzter Beitrag
+Latest threads created: Letzte Themen
+Lock the thread: Thema schließen
+Logged in as: Eingeloggt als
+Login to reply: Connectez-vous pour répondre.
+Members: Mitglieder
+Members list: Mitglieder
+Message deleted: nachricht gelöscht
+Message of: Nachricht von
+Messages number: Anzahl der Beiträge
+My messages: Meine Beiträge
+My profile: Mein Profil
+My threads: Meine Threads
+My settings: Meine Einstellungen
+Never: Nie
+New thread: Neues Thema
+No message: keine Nachricht
+of: von
+Offline: Offline
+Online: Online
+Online users: Benutzer Online
+Open the forum: Ouvrir le forum
+Open the thread: Ouvrir le sujet
+Other reports on the same message: D'autres Berichte sur le même message...
+Password: Mot de passe
+pending: warten
+Pin the subject: Épingler le sujet
+Position: Position
+Profile of %user%: Profil de %user%
+"Profile of %user% : messages": "Profil de %user% : messages"
+"Profile of %user% : threads": "Profil de %user% : sujets"
+Pseudo: Pseudo
+Published messages: Messages publiés
+published message: messages publié
+published messages: messages publiés
+Published on: Publié le
+Reason: Raison
+Registration date: Dabei seit
+Registered on: Inscrit le
+Remember me: Se souvenir de moi
+Report of: Signalement de
+Report of %pseudo%: Signalement de %pseudo%
+Reported by: Signalé par
+Reported on: Reporté le
+Reports: Berichte
+Reset: Remettre à zéro
+Save: Speichern
+See all the participations of %user%: Voir toutes les participations de %user%
+See all the threads created by %user%: Voir tous les sujets créés par %user%
+See my threads:  Mehr Themen anzeigen
+See my participations: Mehr Unterhaltungen anzeigen
+Send: Absenden
+Statistics: Statistiken
+Status: Status
+Team members: Team Mitglieder
+Title: Titel
+the: am
+the last registered user is: der neueste Benutzer ist
+The record number of online users is of: 'Rekord:'
+This forum does not have a topic yet: Ce forum ne contient pas encore de sujets
+This thread is locked, so you cannot reply: Ce sujet est verrouillé, vous ne pouvez pas répondre
+This user has not yet created a thread: Cet utilisateur n'a pas encore créé de sujet
+This user has not yet posted a message: Cet utilisateur n'a pas encore posté de message
+Total answers: Nombre de réponses
+Total messages: Anzahl Beiträge
+Treated by: Traité par
+Treaty: Traité
+users: Benutzer
+Unpin the thread: Détacher le sujet
+Waiting for treatment: En attente de traitement
+Welcome: Hallo
+you can answer: du kannst antworten
+Your email: Votre email
+Your password: Votre mot de passe
+
+## Errors
+You can: Vous pouvez
+return to the homepage: retourner sur l'accueil
+
+Page not found: Page non trouvée
+The page you requested was not found: La page que vous demandez n'a pas été trouvée
+Access forbidden: Accès interdit
+You do not have the necessary permissions to access this page.: Vous ne disposez pas des autorisations nécessaires pour accéder à cette page.
+Unexpected error: Erreur inattendue
+An unexpected error has occurred: Une erreur inattendue s'est produite.

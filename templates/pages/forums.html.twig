@@ -10,12 +10,12 @@
                     <div class="card bg-secondary mb-4">
                         <div class="card-header">
                             <div class="row">
-                                <div class="col-lg-5 col-md-6 col-sm-8">
+                                <div class="col-lg-6 col-md-6 col-sm-8">
                                     <a href="{{ path('category.show', {'slug': category.slug}) }}">{{ category.title }}</a>
                                 </div>
                                 <div class="col-lg-2 col-md-3 col-sm-4 d-none d-sm-block text-center">{% trans %}Threads{% endtrans %}</div>
                                 <div class="col-lg-2 col-md-3 d-none d-md-block text-center">{% trans %}Messages{% endtrans %}</div>
-                                <div class="col-lg-3 d-none d-lg-block">{% trans %}Last activity{% endtrans %}</div>
+                                <div class="col-lg-2 d-none d-lg-block">{% trans %}Last activity{% endtrans %}</div>
                             </div>
                         </div>
 
@@ -41,7 +41,7 @@
                         {% endif %}
 
                         {% if maxOnlineUsersDate is not null %}
-                            {% trans %}The record number of online users is of{% endtrans %} {{ maxOnlineUsers }} {% trans %}the{% endtrans %} {{ maxOnlineUsersDate }}.
+                            {% trans %}The record number of online users is of{% endtrans %} {{ maxOnlineUsers }}  {% trans %}User{% endtrans %}  ({{ maxOnlineUsersDate }}).
                             <br>
                         {% endif %}
 

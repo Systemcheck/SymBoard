@@ -7,17 +7,36 @@
     </div>
     <div class="card-body">
         <div class="row mb-3">
-            <div class="col-lg-2 text-center">
+            <div class="col-lg-2 text-center messageSidebar">
                 {% set author = message.author %}
+                
+            
+                {{ user_profile_image(author) }}
                 {{ user_profile_link(author) }}
-
                 {% if author is not null %}
                     <br>
                     {% set role = user_profile_role(author) %}
-                    {{ role ? role }}
+                    <span class="badge userTitleBadge red">{{ role ? role }}
+                    </span>
+                    <div class="userCredits">
+					<dl class="plain dataList">
+						<dt><a href="https://forum.betriebsrat.de/core/user/1-team-ifb/#likes" class="" data-tooltip="Erhaltene Reaktionen von Team-ifb" aria-label="Erhaltene Reaktionen von Team-ifb">Reaktionen</a></dt>
+								<dd>198</dd>
+														
+															<dt><a href="#" class="" data-user-id="1" data-tooltip="Punkte von Team-ifb anzeigen" aria-label="Punkte von Team-ifb anzeigen">Punkte</a></dt>
+								<dd>3.438</dd>
+														
+														
+														
+								<dt><a href="https://forum.betriebsrat.de/user-post-list/1-team-ifb/" class="" data-tooltip="Beiträge von Team-ifb" aria-label="Beiträge von Team-ifb">Beiträge</a></dt>
+	<dd>595</dd>
+	<dt><a href="https://forum.betriebsrat.de/blog/user-entry-list/1-team-ifb/" class="" data-tooltip="Blog-Artikel von Team-ifb" aria-label="Blog-Artikel von Team-ifb">Blog-Artikel</a></dt>
+	<dd>2</dd>
+					</dl>
+				</div>
                 {% endif %}
             </div>
-            <div class="col-lg-10">{{ message.content }}</div>
+            <div class="col-lg-10 thread">{{ message.content|raw }}</div>
         </div>
 
         {% if displayActions|default(false) == true %}
